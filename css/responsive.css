@@ -1,0 +1,35 @@
+@media screen and (max-width: 991px) {
+  .navbar-nav .nav-item .nav-link {
+    padding: 15px 0 !important;
+  }
+  .whatis {
+    margin: 10px 0 20px 0 !important;
+  }
+  .form-text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .phone {
+    margin: auto !important;
+  }
+  .content-left {
+    display: none !important;
+  }
+  .phone-box h2 {
+    display: block !important;
+  }
+  .phone-box .download {
+    display: block !important;
+  }
+  .hero .phone {
+    width: 201px !important;
+    height: 367px !important;
+  }
+  .hero .phone .video {
+    width: 151px !important;
+    height: 273px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

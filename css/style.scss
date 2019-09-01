@@ -1,0 +1,220 @@
+/**********************************************
+    Designed & Developed By Hasib Molla
+**********************************************/
+
+/**** Google Fonts *****/
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+/**** Global Style ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/**** NavBar ****/
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+
+    nav {
+        .navbar-brand {
+            img {
+                // margin-top: 35px;
+                height: 64px !important;
+            }
+        }
+
+        .navbar-nav {
+            li {
+                a {
+                    padding-left: .7rem !important;
+                    padding-right: .7rem !important;
+                }
+            }
+        }
+
+        .nav-link {
+            color: #000 !important;
+            transition: all .1s ease-in-out !important;
+
+            &:hover {
+                color: tomato !important;
+            }
+        }
+
+        .whatis {
+            width: 200px;
+        }
+    }
+}
+
+/**** Hero Section ****/
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: yellow;
+    overflow: hidden;
+
+    .phone-box {
+        margin-top: 6rem;
+
+        h2 {
+            display: none;
+            font-weight: 400;
+        }
+
+        .download {
+            display: none;
+
+            .btn-download-snap {
+
+                background: #000;
+                padding: 1rem 2rem;
+                border-radius: 40px;
+                color: #fff;
+                opacity: .7;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    opacity: 1;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+    .phone {
+        position: relative;
+        background: url(../img/phone.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 310px;
+        height: 572px;
+
+        .video {
+            height: 420px;
+            width: 236px;
+            display: block;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 10px;
+
+            video {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .form-box {
+        .phone-code {
+            width: 150px;
+        }
+
+        .phone-number {
+            width: 400px;
+        }
+    }
+
+    .content-left {
+        h2 {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 400;
+        }
+
+        p {
+            opacity: .6;
+            font-weight: 300;
+        }
+    }
+
+
+}
+
+/**** Footer Area ****/
+
+footer {
+    padding: 5rem 0;
+    background: #2C2C35;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+
+        li {
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        a {
+            display: block;
+            color: #7a7c91;
+            transition: all .2s ease-in-out;
+            padding: 5px 0 5px 0;
+            font-weight: 300;
+
+            &:hover {
+                color: tomato;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .btn-subs {
+        margin-top: .5rem;
+        display: inline-block;
+        padding: 8px 25px;
+        background: tomato;
+        color: #fff;
+        border: 1px solid tomato;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            background: transparent;
+        }
+    }
+
+    .footer-logo {
+        width: 200px;
+        color: yellow;
+
+        img {
+            width: 25%;
+        }
+
+        span {
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+    }
+
+    .terms {
+        a {
+            font-weight: 300;
+            color: #7a7c91;
+        }
+    }
+}
