@@ -1,3 +1,8 @@
+@media screen and (max-width:1080px){
+    .navbar-logo{
+        display: none !important;
+    }
+}
 @media screen and (max-width:991px) {
     .navbar-nav {
         .nav-item {
@@ -6,6 +11,9 @@
             }
 
         }
+    }
+    .what-logo{
+        right: 35% !important;
     }
 
     .whatis {

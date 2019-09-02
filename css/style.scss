@@ -29,25 +29,41 @@ header {
     z-index: 999;
 
     nav {
-        .navbar-brand {
+        .main-menu {
+            position: relative !important;
+        }
+
+        .what-logo {
+            position: fixed;
+            top: 25px;
+            right: 75px;
+            transform: translate(-50%, -50%);
+        }
+
+        .navbar-logo {
+            position: absolute !important;
+            top: 2px;
+            left: -12%;
+
             img {
-                // margin-top: 35px;
-                height: 64px !important;
+
+                height: 85px !important;
             }
         }
 
         .navbar-nav {
+            margin-left: 50px !important;
+
             li {
-                a {
-                    padding-left: .7rem !important;
-                    padding-right: .7rem !important;
-                }
+                margin-left: .7rem !important;
+                margin-right: .7rem !important;
             }
         }
 
         .nav-link {
             color: #000 !important;
             transition: all .1s ease-in-out !important;
+            font-size: 14px !important;
 
             &:hover {
                 color: tomato !important;
@@ -55,7 +71,7 @@ header {
         }
 
         .whatis {
-            width: 200px;
+            width: 150px;
         }
     }
 }
@@ -65,7 +81,7 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: yellow;
+    background: #fff;
     overflow: hidden;
 
     .phone-box {
@@ -150,10 +166,161 @@ header {
 
 }
 
+/**** Team Section ****/
+
+.team {
+    padding: 9rem 0 4rem 0;
+    background: #F2F7FA;
+
+    .team-hero {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+
+        .team-person-img {
+            width: 100%;
+            margin-bottom: 20px;
+
+            img {
+                vertical-align: middle;
+                width: 100%;
+            }
+        }
+
+        .team-person-info {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .team-person-name {
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+
+            .team-person-designation {
+                font-size: 14px;
+                color: #00b0f5;
+                font-weight: 300;
+                margin-top: 3px;
+            }
+        }
+    }
+}
+
+/**** Feature ****/
+.feature {
+    padding: 5.5rem 0;
+
+    .feature-list {
+        position: relative;
+
+        .vertical-line {
+            position: absolute;
+            top: 21px;
+            left: 41px;
+            height: 100%;
+            width: 1px;
+            background: rgba(0, 0, 0, .15);
+            bottom: 0;
+            display: block;
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            list-style: none;
+
+            li {
+                margin: 1rem 0;
+
+                .item-number {
+                    position: relative;
+                    display: inline-block;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background: #fff;
+
+                    span {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        display: block;
+                        margin: auto;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        line-height: 50px;
+                        background: #1188FE;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                }
+
+                .feature-item {
+                    margin: -4rem 0 0 6rem;
+
+                    h4 {
+                        font-size: 35px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        font-weight: 300;
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+
+    .phone-slide {
+        position: relative;
+        background: url(../img/phone.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 310px;
+        height: 572px;
+        display: block;
+        margin: auto;
+
+        .slide-item {
+            position: absolute;
+            height: 420px;
+            width: 236px;
+            display: block;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 11px;
+
+            .slide-img {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+}
+
 /**** Footer Area ****/
 
 footer {
-    padding: 5rem 0;
+    padding: 54px 0;
     background: #2C2C35;
 
     ul {
@@ -164,7 +331,7 @@ footer {
 
         li {
             color: #fff;
-            font-weight: 600;
+            font-weight: 400;
             padding: 10px 0;
             letter-spacing: 1px;
         }
@@ -175,6 +342,7 @@ footer {
             transition: all .2s ease-in-out;
             padding: 5px 0 5px 0;
             font-weight: 300;
+            font-size: 14px;
 
             &:hover {
                 color: tomato;
@@ -215,6 +383,7 @@ footer {
         a {
             font-weight: 300;
             color: #7a7c91;
+            font-size: 14px;
         }
     }
 }

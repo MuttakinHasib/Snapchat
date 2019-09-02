@@ -1,6 +1,15 @@
+@media screen and (max-width: 1080px) {
+  .navbar-logo {
+    display: none !important;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .navbar-nav .nav-item .nav-link {
     padding: 15px 0 !important;
+  }
+  .what-logo {
+    right: 35% !important;
   }
   .whatis {
     margin: 10px 0 20px 0 !important;

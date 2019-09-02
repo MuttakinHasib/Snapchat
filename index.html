@@ -12,10 +12,16 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Link for Responsive.css -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Link for animate.css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Link for owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Link for shortcut icon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <!-- Script tag for fontawesome -->
     <script src="https://kit.fontawesome.com/eca179abd1.js"></script>
 </head>
-            <!-- --------------------------------------
+<!-- --------------------------------------
                 Designed & Developed By Hasib Molla
             --------------------------------------- -->
 
@@ -24,35 +30,38 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a href="#" class="navbar-brand"><img class="w-75" src="img/ghost.svg" alt="Snapchat" /></a>
-                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+
+                <a class="what-logo" href="#"><img class="whatis" src="img/whatis.svg" alt="What is Snapchat ?"></a>
+                <button class="navbar-toggler border-0 ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarControl" aria-controls="navbarControl" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span><i class="fas fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarControl">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto main-menu">
+                        <a href="#" class="navbar-logo"><img class="w-75" src="img/ghost.svg" alt="Snapchat" /></a>
                         <li class="nav-item"><a href="#" class="nav-link">Ads</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Spectacles</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Create</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+                        <li class="nav-item"><a style="border-bottom:2px solid #000;" href="#"
+                                class="nav-link">Download</a>
+                        </li>
                         <li class="nav-item"><a href="#" class="nav-link">Store</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Strories</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Snapcodes</a></li>
                     </ul>
-                    <a class="ml-auto" href="#"><img class="whatis" src="img/whatis.svg" alt="What is Snapchat ?"></a>
                 </div>
             </div>
         </nav>
     </header>
     <!-- End Header Area -->
     <!-- Start Hero Section -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container h-100">
             <div class="row justify-content-center align-items-center h-100">
-                <div class="col-md-6 phone-box text-center">
+                <div class="col-md-6 pl-0 phone-box text-center">
                     <h2>Try Snapchat</h2>
-                    <div class="phone ml-auto d-block">
+                    <div class="phone d-block">
                         <div class="video">
                             <video autoplay muted loop src="video/app_store_sc1806_en-us.mp4"></video>
                         </div>
@@ -62,15 +71,15 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="content-left">
+                    <div class="content-left" style="margin-top: 5.5rem;">
                         <h2>Try Snapchat</h2>
                         <div class="form-text">
                             <p>Send the download link to your phone</p>
                             <div class="form-box">
                                 <form action="#">
                                     <div class="d-flex">
-                                        <select class="custom-select phone-code border-0 mr-3">
-                                            <option selected>BN +88</option>
+                                        <select class="custom-select phone-code mr-3">
+                                            <option selected>BD +88</option>
                                             <option value="1">US +1</option>
                                             <option value="2">AU +61</option>
                                             <option value="3">IN +91</option>
@@ -85,14 +94,16 @@
                                     </div>
                                 </form>
                             </div>
-                            <p class="pt-3">By clicking Send Link, I acknowledge that I have read the <a href="#">
-                                    Privacy Policy</a> and
-                                agree to the <a href="#">Terms of Service</a></p>
-                            <p>Message and data rates may apply.</p>
+                            <p class="pt-3 font-weight-normal" style="opacity: 1;font-size:30px;">No more data charges
+                                to download unwanted content</p>
+                            <p class="pb-2">The average mobile browser user pays as much as $23 a month in data charges
+                                to download ads and trackers — that’s $276 a year. Snapchat blocks ads and trackers, so
+                                you don’t pay for them.</p>
                         </div>
                         <div class="download-btn">
-                            <a class="mr-3" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                            <a href="#"><img src="img/appstore.svg" alt=""></a>
+                            <a class="mr-3" href="#"><img src="img/google-play-badge.svg" alt="Get in Goolge Play"></a>
+                            <a class="mr-3" href="#"><img src="img/appstore.svg" alt="Get in Appstore"></a>
+                            <a href="#"><img style="width: 120px;" src="img/windows.png" alt="Get in Windows"></a>
                         </div>
                     </div>
                 </div>
@@ -100,6 +111,103 @@
         </div>
     </section>
     <!-- End Hero Section -->
+    <!-- Start About Section -->
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row about-block">
+                <div class="col-md-4">
+                    <div class="feature-list">
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>
+                                <div class="item-number">
+                                    <span>1</span>
+                                </div>
+                                <div class="feature-item">
+
+                                    <h4 class="pb-2">Define</h4>
+                                    <p>Cutest Paw operates smoothly and efficiently. Scrolling through all of the
+                                        different photos of animals is quick and easy.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-number">
+                                    <span>3</span>
+                                </div>
+                                <div class="feature-item">
+
+                                    <h4 class="pb-2">Build</h4>
+                                    <p>Cutest Paw operates smoothly and efficiently. Scrolling through all of the
+                                        different photos of animals is quick and easy.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="phone-slide">
+                        <div class="slide-item owl-carousel">
+                            <div class="slide-img">
+                                <img src="img/beach-cold-daylight-1002106.jpg" alt="Home">
+                            </div>
+                            <div class="slide-img">
+                                <img src="img/menu.jpg" alt="Menu">
+                            </div>
+                            <div class="slide-img">
+                                <img src="img/67.jpeg" alt="Road">
+                            </div>
+                            <div class="slide-img">
+                                <img src="img/pexels-photo-445109.jpeg" alt="Girl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-list">
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>
+                                <div class="item-number">
+                                    <span>2</span>
+                                </div>
+                                <div class="feature-item">
+
+                                    <h4 class="pb-2">Design</h4>
+                                    <p>Cutest Paw operates smoothly and efficiently. Scrolling through all of the
+                                        different photos of animals is quick and easy.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-number">
+                                    <span>4</span>
+                                </div>
+                                <div class="feature-item">
+
+                                    <h4 class="pb-2">Launch</h4>
+                                    <p>Cutest Paw operates smoothly and efficiently. Scrolling through all of the
+                                        different photos of animals is quick and easy.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start More Feature -->
+    <div class="more-feature">
+        <div class="contaienr">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="feature-left-content">
+                        <div class="title">More </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End More Feature -->
     <!-- Start Footer Area -->
     <footer>
         <div class="container">
@@ -208,6 +316,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
