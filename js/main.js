@@ -23,8 +23,3 @@ var wow = new WOW({
 });
 wow.init();
 
-
-
-$(document).on('click', '.main-menu li', function () {
-    $(this).addClass('active-menu').siblings().removeClass('active-menu')
-});
