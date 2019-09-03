@@ -47,7 +47,7 @@ header {
         .navbar-logo {
             position: absolute !important;
             top: 2px;
-            left: -25%;
+            left: -40%;
 
             img {
 
@@ -56,7 +56,7 @@ header {
         }
 
         .navbar-nav {
-            margin-left: 50px !important;
+            margin-left: 100px;
 
             li {
                 margin: 0 !important;
@@ -170,6 +170,53 @@ header {
     }
 
 
+}
+
+/**** Supported ****/
+.supported-site {
+    padding: 0 0 6.25rem 0;
+
+    .title {
+        text-align: center;
+        padding-bottom: 5rem;
+
+        h1 {
+            font-weight: 500;
+            font-size: 45px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 100;
+            opacity: .7;
+            width: 60%;
+            display: block;
+            margin: auto;
+        }
+    }
+    .site-icons{
+        .icon-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            
+            .single-icon{
+                width: 60px;
+                display: inline-block;
+                img{
+                    width:100%;
+                }
+            }
+            span{
+                padding-top:15px;
+            }
+        }
+        .col-sm-2{
+            margin: 25px 0;
+        }
+    }
 }
 
 /**** Team Section ****/

@@ -1,6 +1,6 @@
 @media screen and (max-width:1200px) {
-    .testimonial{
-        .person-info{
+    .testimonial {
+        .person-info {
             flex-direction: column !important;
         }
     }
@@ -13,7 +13,13 @@
 }
 
 @media screen and (max-width:991px) {
+    .main-menu {
+
+        margin-left: 45px !important;
+    }
+
     .navbar-nav {
+
         .nav-item {
             .nav-link {
                 padding: 15px 0 !important;
@@ -83,28 +89,38 @@
             }
         }
     }
-    .plan-pricing{
-        .title-content{
-            h1{
+
+    .plan-pricing {
+        .title-content {
+            h1 {
                 font-size: 35px !important;
             }
-            
-            p{
+
+            p {
                 font-size: 18px !important;
             }
         }
     }
-    .testimonial{
-        .title{
-            h1{
+
+    .testimonial {
+        .title {
+            h1 {
                 font-size: 35px !important;
             }
-            p{
+
+            p {
                 font-size: 18px !important;
             }
         }
-        .tm-text{
+
+        .tm-text {
             font-size: 15px;
         }
+    }
+}
+
+@media screen and (max-width:420px){
+    .what-logo{
+        right: 20% !important;
     }
 }

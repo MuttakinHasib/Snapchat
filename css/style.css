@@ -46,7 +46,7 @@ header nav .what-logo {
 header nav .navbar-logo {
   position: absolute !important;
   top: 2px;
-  left: -25%;
+  left: -40%;
 }
 
 header nav .navbar-logo img {
@@ -54,7 +54,7 @@ header nav .navbar-logo img {
 }
 
 header nav .navbar-nav {
-  margin-left: 50px !important;
+  margin-left: 100px;
 }
 
 header nav .navbar-nav li {
@@ -159,6 +159,64 @@ header nav .whatis {
 .hero .content-left p {
   opacity: .6;
   font-weight: 300;
+}
+
+/**** Supported ****/
+.supported-site {
+  padding: 0 0 6.25rem 0;
+}
+
+.supported-site .title {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.supported-site .title h1 {
+  font-weight: 500;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+.supported-site .title p {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: .7;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.supported-site .site-icons .icon-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.supported-site .site-icons .icon-info .single-icon {
+  width: 60px;
+  display: inline-block;
+}
+
+.supported-site .site-icons .icon-info .single-icon img {
+  width: 100%;
+}
+
+.supported-site .site-icons .icon-info span {
+  padding-top: 15px;
+}
+
+.supported-site .site-icons .col-sm-2 {
+  margin: 25px 0;
 }
 
 /**** Team Section ****/
