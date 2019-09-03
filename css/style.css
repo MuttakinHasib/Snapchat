@@ -2,7 +2,7 @@
     Designed & Developed By Hasib Molla
 **********************************************/
 /**** Google Fonts *****/
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:100,300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
 /**** Global Style ****/
 * {
@@ -405,6 +405,292 @@ header nav .whatis {
 
 .more-feature .feature-demo .demo-img img {
   width: 100%;
+}
+
+/**======================
+    Ads Pages
+========================*/
+.btn-ads {
+  display: inline-block;
+  padding: 8px 25px;
+  color: #fff;
+  background: #6772E5;
+  border-radius: 4px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-ads:hover {
+  text-decoration: none;
+  color: #fff !important;
+  opacity: .8;
+}
+
+.ads-land {
+  padding: 5.5rem 0 4rem 0;
+  background: #F6F8F9;
+}
+
+.ads-land .land-content {
+  margin-top: 10rem;
+}
+
+.ads-land .land-content span {
+  color: #1188FE;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.ads-land .land-content h1 {
+  padding-top: 1rem;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.ads-land .land-content h1 b {
+  color: #638DFF;
+}
+
+.ads-land .land-content p {
+  font-size: 25px;
+  opacity: .7;
+  font-weight: 300;
+}
+
+/***** Pricing *****/
+.plan-pricing {
+  background: #fff;
+  padding: 6.25rem 0;
+}
+
+.plan-pricing .title-content {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.plan-pricing .title-content h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.plan-pricing .title-content p {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: .7;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.plan-pricing .pricing-card {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.plan-pricing .pricing-card .pricing-box span {
+  color: #1188FE;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.plan-pricing .pricing-card .pricing-box h5 {
+  font-size: 55px;
+  font-weight: 400;
+  color: #6772E5;
+  padding: 1rem 0 !important;
+}
+
+.plan-pricing .pricing-card .pricing-box small {
+  letter-spacing: .3em;
+  opacity: .6;
+  font-size: 16px;
+}
+
+.plan-pricing .pricing-card .pricing-box p {
+  font-size: 20px;
+  opacity: .8;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.plan-pricing .pricing-card .price-items ul {
+  list-style: none;
+  margin: 0;
+  padding: .5rem 0;
+}
+
+.plan-pricing .pricing-card .price-items ul li {
+  margin: 15px 0;
+}
+
+.plan-pricing .pricing-card .price-items ul li .fa-check-circle {
+  color: #00b0f5;
+}
+
+.plan-pricing .pricing-card .price-items ul li span {
+  padding-left: 15px;
+  opacity: .7;
+  letter-spacing: 1px;
+}
+
+.plan-pricing .pricing-card .price-items ul li span span {
+  color: #f02143;
+  opacity: 1;
+}
+
+.plan-pricing .pricing-card .price-items .btn-buy {
+  margin-top: 1rem;
+  display: block;
+  padding: 8px 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  opacity: .8;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #3264f5), color-stop(82%, #7202bb));
+  background: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+  border-radius: 4px;
+}
+
+.plan-pricing .pricing-card .price-items .btn-buy:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+/**** Marketing ****/
+.marketing {
+  padding: 6.25rem 0;
+  background: #F6F8F9;
+}
+
+.marketing .content-box {
+  padding: 60px 0;
+}
+
+.marketing .content-box span {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  color: #00b0f5;
+}
+
+.marketing .content-box h2 {
+  font-weight: 500;
+  padding: 15px 0;
+  font-size: 40px;
+}
+
+.marketing .content-box p {
+  font-size: 20px;
+  font-weight: 300;
+  opacity: .7;
+}
+
+/***** Testimonial ****/
+.testimonial {
+  padding: 6.25rem 0;
+}
+
+.testimonial .title {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.testimonial .title h1 {
+  font-weight: 500;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+.testimonial .title p {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: .7;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.testimonial .tm-box {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.testimonial .tm-box .tm-text {
+  font-size: 17px;
+  opacity: .7;
+  font-weight: 300;
+}
+
+.testimonial .tm-box .person-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial .tm-box .person-info .person-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonial .tm-box .person-info .person-img img {
+  width: 100%;
+}
+
+.testimonial .tm-box .person-info .person-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonial .tm-box .person-info .person-name h4 {
+  padding-right: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.testimonial .tm-box .person-info .person-name span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1188FE;
+  padding: 3px 25px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.testimonial .tm-box .person-info .person-name span i {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.testimonial .tm-box .person-info small {
+  margin-left: 15px;
+  opacity: .7;
 }
 
 /**** Footer Area ****/

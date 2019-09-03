@@ -3,7 +3,7 @@
 **********************************************/
 
 /**** Google Fonts *****/
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:100,300,400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
 
 /**** Global Style ****/
@@ -320,8 +320,9 @@ header {
 /***** More Feature *****/
 
 .more-feature {
-    
+
     margin: 5rem 0;
+
     .feature-left-content {
 
         .title {
@@ -378,11 +379,13 @@ header {
                     color: #F2F7FA;
                 }
             }
-            .item-text{
-                h5{
+
+            .item-text {
+                h5 {
                     font-weight: 300;
                 }
-                p{
+
+                p {
                     opacity: .7;
                     font-weight: 300;
                 }
@@ -400,6 +403,285 @@ header {
 
             img {
                 width: 100%;
+            }
+        }
+    }
+}
+
+/**======================
+    Ads Pages
+========================*/
+.btn-ads {
+    display: inline-block;
+    padding: 8px 25px;
+    color: #fff;
+    background: #6772E5;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        text-decoration: none;
+        color: #fff !important;
+        opacity: .8;
+    }
+}
+
+.ads-land {
+    padding: 5.5rem 0 4rem 0;
+    background: #F6F8F9;
+
+    .land-content {
+        margin-top: 10rem;
+
+        span {
+            color: #1188FE;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+
+        h1 {
+            padding-top: 1rem;
+            font-size: 50px;
+            font-weight: 300;
+
+            b {
+                color: #638DFF;
+            }
+        }
+
+        p {
+            font-size: 25px;
+            opacity: .7;
+            font-weight: 300;
+        }
+
+
+    }
+}
+
+
+/***** Pricing *****/
+.plan-pricing {
+    background: #fff;
+    padding: 6.25rem 0;
+
+    .title-content {
+        text-align: center;
+        padding-bottom: 5rem;
+
+        h1 {
+            font-weight: 500;
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 100;
+            opacity: .7;
+            width: 60%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .pricing-card {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding: 30px;
+
+        .pricing-box {
+            span {
+                color: #1188FE;
+                font-weight: 100;
+                font-size: 25px;
+                letter-spacing: 1px;
+            }
+
+            h5 {
+                font-size: 55px;
+                font-weight: 400;
+                color: #6772E5;
+                padding: 1rem 0 !important;
+            }
+
+            small {
+                letter-spacing: .3em;
+                opacity: .6;
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 20px;
+                opacity: .8;
+                font-weight: 400;
+                padding: 20px 0;
+
+            }
+        }
+
+        .price-items {
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: .5rem 0;
+
+                li {
+                    margin: 15px 0;
+
+                    .fa-check-circle {
+                        color: #00b0f5;
+
+                    }
+
+                    span {
+                        padding-left: 15px;
+                        opacity: .7;
+                        letter-spacing: 1px;
+
+                        span {
+                            color: rgb(240, 33, 67);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            .btn-buy {
+                margin-top: 1rem;
+                display: block;
+                padding: 8px 25px;
+                text-align: center;
+                color: #fff;
+                font-size: 20px;
+                opacity: .8;
+                transition: all .3s ease-in-out;
+                background: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+                border-radius: 4px;
+
+                &:hover {
+                    text-decoration: none;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+/**** Marketing ****/
+
+.marketing {
+    padding: 6.25rem 0;
+    background: #F6F8F9;
+
+    .content-box {
+        padding: 60px 0;
+
+        span {
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: .3em;
+            color: #00b0f5;
+        }
+
+        h2 {
+            font-weight: 500;
+            padding: 15px 0;
+            font-size: 40px;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            opacity: .7;
+        }
+    }
+}
+
+/***** Testimonial ****/
+
+.testimonial {
+    padding: 6.25rem 0;
+
+    .title {
+        text-align: center;
+        padding-bottom: 5rem;
+
+        h1 {
+            font-weight: 500;
+            font-size: 45px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 100;
+            opacity: .7;
+            width: 60%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .tm-box {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 30px;
+
+        .tm-text {
+            font-size: 17px;
+            opacity: .7;
+            font-weight: 300;
+        }
+
+        .person-info {
+            display: flex;
+
+            .person-img {
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .person-name {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                h4 {
+                    padding-right: 2rem;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #1188FE;
+                    padding: 3px 25px;
+                    border-radius: 40px;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 14px;
+
+                    i {
+                        padding-left: 10px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            small {
+                margin-left: 15px;
+                opacity: .7;
             }
         }
     }

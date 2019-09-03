@@ -1,8 +1,17 @@
-@media screen and (max-width:1080px){
-    .navbar-logo{
+@media screen and (max-width:1200px) {
+    .testimonial{
+        .person-info{
+            flex-direction: column !important;
+        }
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .navbar-logo {
         display: none !important;
     }
 }
+
 @media screen and (max-width:991px) {
     .navbar-nav {
         .nav-item {
@@ -12,7 +21,8 @@
 
         }
     }
-    .what-logo{
+
+    .what-logo {
         right: 35% !important;
     }
 
@@ -22,6 +32,12 @@
 
     .form-text {
         display: none;
+    }
+
+    .ads-land {
+        .land-content {
+            margin-top: 10px !important;
+        }
     }
 }
 
@@ -33,14 +49,17 @@
     .content-left {
         display: none !important;
     }
-    .phone-box{
-        h2{
+
+    .phone-box {
+        h2 {
             display: block !important;
         }
-        .download{
+
+        .download {
             display: block !important;
         }
     }
+
     .hero {
         .phone {
             width: 201px !important;
@@ -50,6 +69,42 @@
                 width: 151px !important;
                 height: 273px !important;
             }
+        }
+    }
+
+    .ads-land {
+        .land-content {
+            h1 {
+                font-size: 35px !important;
+            }
+
+            p {
+                font-size: 20px !important;
+            }
+        }
+    }
+    .plan-pricing{
+        .title-content{
+            h1{
+                font-size: 35px !important;
+            }
+            
+            p{
+                font-size: 18px !important;
+            }
+        }
+    }
+    .testimonial{
+        .title{
+            h1{
+                font-size: 35px !important;
+            }
+            p{
+                font-size: 18px !important;
+            }
+        }
+        .tm-text{
+            font-size: 15px;
         }
     }
 }
