@@ -201,6 +201,8 @@ header nav .whatis {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
+  margin: auto;
+  text-align: center;
 }
 
 .supported-site .site-icons .icon-info .single-icon {
