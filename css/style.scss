@@ -317,6 +317,94 @@ header {
 
 }
 
+/***** More Feature *****/
+
+.more-feature {
+    
+    margin: 5rem 0;
+    .feature-left-content {
+
+        .title {
+            span {
+                position: relative;
+                font-size: 40px;
+                line-height: 100px;
+                font-weight: 300;
+                letter-spacing: 1px;
+
+                &::before {
+                    margin-top: 10px;
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0;
+                    width: 100px;
+                    height: 2px;
+                    background: #1188FE;
+                    content: '';
+                }
+            }
+
+            p {
+                opacity: .7;
+                font-weight: 300;
+                margin: 1.5rem 0;
+            }
+        }
+    }
+
+    .feature-icon-list {
+        .single-list-item {
+            position: relative;
+            padding-left: 95px;
+            display: flex;
+            flex-direction: row;
+            margin: 2rem 0;
+
+            span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                width: 75px;
+                height: 75px;
+                line-height: 75px;
+                overflow: hidden;
+                background: #1188FE;
+                text-align: center;
+                border-radius: 10px;
+
+                i {
+                    font-size: 25px;
+                    color: #F2F7FA;
+                }
+            }
+            .item-text{
+                h5{
+                    font-weight: 300;
+                }
+                p{
+                    opacity: .7;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    .feature-demo {
+        width: 100%;
+
+        .demo-img {
+            width: 300px;
+            display: block;
+            margin: auto;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
 /**** Footer Area ****/
 
 footer {

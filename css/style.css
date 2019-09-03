@@ -322,6 +322,91 @@ header nav .whatis {
   height: 100%;
 }
 
+/***** More Feature *****/
+.more-feature {
+  margin: 5rem 0;
+}
+
+.more-feature .feature-left-content .title span {
+  position: relative;
+  font-size: 40px;
+  line-height: 100px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.more-feature .feature-left-content .title span::before {
+  margin-top: 10px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: #1188FE;
+  content: '';
+}
+
+.more-feature .feature-left-content .title p {
+  opacity: .7;
+  font-weight: 300;
+  margin: 1.5rem 0;
+}
+
+.more-feature .feature-icon-list .single-list-item {
+  position: relative;
+  padding-left: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem 0;
+}
+
+.more-feature .feature-icon-list .single-list-item span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  overflow: hidden;
+  background: #1188FE;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.more-feature .feature-icon-list .single-list-item span i {
+  font-size: 25px;
+  color: #F2F7FA;
+}
+
+.more-feature .feature-icon-list .single-list-item .item-text h5 {
+  font-weight: 300;
+}
+
+.more-feature .feature-icon-list .single-list-item .item-text p {
+  opacity: .7;
+  font-weight: 300;
+}
+
+.more-feature .feature-demo {
+  width: 100%;
+}
+
+.more-feature .feature-demo .demo-img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.more-feature .feature-demo .demo-img img {
+  width: 100%;
+}
+
 /**** Footer Area ****/
 footer {
   padding: 54px 0;
