@@ -3,7 +3,8 @@ $(document).ready(function () {
     $('.slide-item').owlCarousel({
         items: 1,
         autoplay: true,
-        loop: true
+        loop: true,
+        autoplayTimeout:2500 
     });
 });
 
@@ -22,4 +23,3 @@ var wow = new WOW({
     scrollContainer: null // optional scroll container selector, otherwise use window
 });
 wow.init();
-

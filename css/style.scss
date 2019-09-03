@@ -37,13 +37,6 @@ header {
             position: relative !important;
         }
 
-        .what-logo {
-            position: fixed;
-            top: 33px;
-            right: 75px;
-            transform: translate(-50%, -50%);
-        }
-
         .navbar-logo {
             position: absolute !important;
             top: 2px;
@@ -782,7 +775,7 @@ footer {
             letter-spacing: 1px;
         }
 
-        a {
+        .li-child {
             display: block;
             color: #7a7c91;
             transition: all .2s ease-in-out;
@@ -792,7 +785,6 @@ footer {
 
             &:hover {
                 color: tomato;
-                text-decoration: none;
             }
         }
     }

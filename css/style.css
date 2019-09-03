@@ -35,14 +35,6 @@ header nav .main-menu {
   position: relative !important;
 }
 
-header nav .what-logo {
-  position: fixed;
-  top: 33px;
-  right: 75px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 header nav .navbar-logo {
   position: absolute !important;
   top: 2px;
@@ -799,7 +791,7 @@ footer ul li {
   letter-spacing: 1px;
 }
 
-footer ul a {
+footer ul .li-child {
   display: block;
   color: #7a7c91;
   -webkit-transition: all .2s ease-in-out;
@@ -809,9 +801,8 @@ footer ul a {
   font-size: 14px;
 }
 
-footer ul a:hover {
+footer ul .li-child:hover {
   color: tomato;
-  text-decoration: none;
 }
 
 footer .btn-subs {
