@@ -22,3 +22,9 @@ var wow = new WOW({
     scrollContainer: null // optional scroll container selector, otherwise use window
 });
 wow.init();
+
+
+
+$(document).on('click', '.main-menu li', function () {
+    $(this).addClass('active-menu').siblings().removeClass('active-menu')
+});

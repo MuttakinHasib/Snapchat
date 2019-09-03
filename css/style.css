@@ -19,6 +19,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+.active-menu {
+  border-bottom: 2px solid #000;
+}
+
 /**** NavBar ****/
 header {
   position: fixed;
@@ -33,7 +37,7 @@ header nav .main-menu {
 
 header nav .what-logo {
   position: fixed;
-  top: 25px;
+  top: 33px;
   right: 75px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -54,8 +58,8 @@ header nav .navbar-nav {
 }
 
 header nav .navbar-nav li {
-  margin-left: .7rem !important;
-  margin-right: .7rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 header nav .nav-link {
@@ -63,6 +67,7 @@ header nav .nav-link {
   -webkit-transition: all .1s ease-in-out !important;
   transition: all .1s ease-in-out !important;
   font-size: 14px !important;
+  padding: 15px 20px !important;
 }
 
 header nav .nav-link:hover {
@@ -160,6 +165,26 @@ header nav .whatis {
 .team {
   padding: 9rem 0 4rem 0;
   background: #F2F7FA;
+}
+
+.team .title {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.team .title h1 {
+  font-weight: 500;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+.team .title p {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: .7;
+  width: 60%;
+  display: block;
+  margin: auto;
 }
 
 .team .team-hero {
