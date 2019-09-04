@@ -799,6 +799,7 @@ footer ul .li-child {
   padding: 5px 0 5px 0;
   font-weight: 400;
   font-size: 15px;
+  letter-spacing: 0;
 }
 
 footer ul .li-child:hover {
