@@ -1,10 +1,11 @@
+// Phone slider
 $(document).ready(function () {
 
     $('.slide-item').owlCarousel({
         items: 1,
         autoplay: true,
         loop: true,
-        autoplayTimeout:2500 
+        autoplayTimeout: 2500
     });
 });
 
@@ -23,3 +24,12 @@ var wow = new WOW({
     scrollContainer: null // optional scroll container selector, otherwise use window
 });
 wow.init();
+
+// Disabled terms and report link
+
+const footerLink = document.querySelectorAll('.terms a');
+footerLink.forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault();
+    });
+});
