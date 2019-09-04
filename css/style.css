@@ -797,8 +797,8 @@ footer ul .li-child {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   padding: 5px 0 5px 0;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 footer ul .li-child:hover {
