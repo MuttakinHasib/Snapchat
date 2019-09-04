@@ -24,6 +24,9 @@ body {
 .active-menu {
     border-bottom: 2px solid #000;
 }
+a{
+    color: #fff !important;
+}
 
 /**** NavBar ****/
 
@@ -853,7 +856,7 @@ footer {
         margin-top: .5rem;
         display: inline-block;
         padding: 8px 25px;
-        background: tomato;
+        background: tomato !important;
         color: #fff;
         border: 1px solid tomato;
         transition: all .3s ease-in-out;
@@ -865,7 +868,7 @@ footer {
 
     .footer-logo {
         width: 200px;
-        color: yellow;
+        color: #fff;
 
         img {
             width: 25%;

@@ -24,6 +24,10 @@ body {
   border-bottom: 2px solid #000;
 }
 
+a {
+  color: #fff !important;
+}
+
 /**** NavBar ****/
 header {
   position: fixed;
@@ -851,7 +855,7 @@ footer .btn-subs {
   margin-top: .5rem;
   display: inline-block;
   padding: 8px 25px;
-  background: tomato;
+  background: tomato !important;
   color: #fff;
   border: 1px solid tomato;
   -webkit-transition: all .3s ease-in-out;
@@ -864,7 +868,7 @@ footer .btn-subs:hover {
 
 footer .footer-logo {
   width: 200px;
-  color: yellow;
+  color: #fff;
 }
 
 footer .footer-logo img {
